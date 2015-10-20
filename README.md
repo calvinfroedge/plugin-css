@@ -6,9 +6,16 @@ CSS loading plugin
 Basic Use
 ---
 
+CSS in your public directory:
 ```javascript
 import './style.css!'
 ```
+
+CSS from a package:
+```javascript
+import 'bootstrap/css/bootstrap.css!'
+```
+
 
 Currently CSS bundling is only supported in jspm, please post an issue if you would like support outside of jspm.
 
